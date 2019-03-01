@@ -1,0 +1,84 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4f682d;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  padding: 0;
+  margin: 10px 100px 10px 100px;
+  border: 1px solid black;
+  background-color: #7f5d52;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.preamble {
+  margin: 0px 10px 0px 10px;
+}
+
+.explanation {
+  margin: 0px 10px 0px 10px;
+}
+
+.participation {
+  margin: 0px 10px 0px 10px;
+}
+
+.requirements {
+  margin: 0px 10px 0px 10px;
+}
+
+.benefits {
+  margin: 0px 10px 0px 10px;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+}
+.summary p {
+  text-align: center;
+  width: 400px;
+  border: 1px solid black;
+  background-color: grey;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0px 300px 0px 300px;
+}
+
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
